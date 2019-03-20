@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgColor = "#FDF5E6">
+  <h1 align="center">Formulaire avec Get</h1>
+ <form action="afficheParametre" method="get">
+ 
+ Numéro du Produit : <input type="text" name="numeroProduit"> <br>
+ Description : <input type="text" name="descriptionProduit">  <br>
+ Prix : <input type="text" name="prixProduit" value="$">  <br>
+ 
+ <hr>
+ Nom : <input type="text" name="nom"> <br>
+ Prenom : <input type="text" name="prenom">  <br>
+
+ Addrese <textarea rows="4" cols="15"></textarea> <br>
+ 
+ Carte de Crédit : <br>
+ 
+  Visa : <input type="radio" name="typeCarte" value="visa">  <br>
+  MasterCarte : <input type="radio" name="typeCarte" value="masterCarte">  <br>
+  American Express : <input type="radio" name="typeCarte" value ="americanExpress">  <br>
+  
+  Date d'expiration : <select name="dateExpiration">
+  					<option value="01">01</option>
+  					<option value="02">02</option>
+  
+  					</select>
+  					 <select name="dateExpiration">
+  					<option value="2018">2018</option>
+  					<option value="2020">2020</option>
+  					</select>
+ 
+  <center> <input type="submit" value="Envoyer">  </center>
+ 
+ </form>
+
+</body>
+
+</html>
